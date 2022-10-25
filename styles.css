@@ -1,0 +1,157 @@
+body {
+    margin: 0 10%;
+    background-color:antiquewhite;
+}
+#header-title{
+    font-family: "Trebuchet MS";
+}
+h2 {
+    font-size: 30px;
+}
+.section-title {
+    grid-column: 1/4;
+    font-family: 'Trebuchet MS'
+}
+.colors-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    border: 2.5px solid grey;
+    row-gap: 15px;
+    padding: 0px 50px 50px 50px;
+  }
+.color {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-family: 'Trebuchet MS';
+    line-height: 50px;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+}
+#color1 {
+    background-color: #856778;
+}
+#color2 {
+    background-color: #edbe6c;
+}
+#color3 {
+    background-color: #cb2baa;
+}
+#color4 {
+    background-color: #2a1105;
+    color: ivory;
+}
+#color5 {
+    background-color: #8ebe37;
+}
+#color6 {
+    background-color: #fd492b;
+}
+.buttons-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    row-gap: 15px;
+    border: 2.5px solid grey;
+    padding: 0px 50px 50px 50px;
+    margin-top: 50px;
+  }
+.button {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-family: 'Trebuchet MS';
+    line-height: 50px;
+    position: relative;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    vertical-align: middle;
+    width: 300px;
+    height: 50px;
+    align-content: center;
+}
+#button1 {
+    background-color:cadetblue;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#button1:hover {
+    color: whitesmoke;
+    cursor: pointer;
+}
+#button1:active {
+    color: black;
+    background-color: whitesmoke;
+}
+#button2{
+    background-color:darkseagreen;
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 40px;
+    box-shadow: 0px 10px black;
+}
+#button2:hover{
+    color:whitesmoke;
+    cursor: pointer;
+}
+#button2:active{
+    box-shadow: none;
+    top: 10px;
+}
+.container {
+    display: block;
+    border: 2px solid grey;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#font-section{
+    position:relative;
+    padding-left: 30px;
+}
+.fonts-container {
+    display: block;
+}
+.font-panel {
+    padding-left: 30px;
+    width: 45%;
+    display: inline-block;
+}
+.font-label {
+    font-size: 20x;
+    text-decoration: underline;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#font1{
+    font-family: Cambria;
+    font-size: 16px;
+}
+#font2{
+    font-family:monospace;
+    font-size: 16px;
+}s
+#font3{
+    font-family:"Lucida Sans";
+    font-size: 16px;
+}
+#font4{
+    font-family: "Segoe UI";
+    font-size: 16px;
+}
+#bold {
+    font-weight: bold;
+}
+#italic {
+    font-style: italic;
+}
